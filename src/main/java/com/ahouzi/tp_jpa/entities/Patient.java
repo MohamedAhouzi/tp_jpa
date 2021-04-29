@@ -21,7 +21,6 @@ public class Patient implements Serializable {
     @Temporal(TemporalType.DATE)
     private Date birthDate;
     private int score;
-
     private boolean malade;
 
 

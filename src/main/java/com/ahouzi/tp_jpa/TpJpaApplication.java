@@ -23,15 +23,19 @@ public class TpJpaApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-     patientRepository.save(new Patient(null,"ahouzi",new Date(),12000,false));
+   /*  patientRepository.save(new Patient(null,"ahouzi",new Date(),12000,false));
      patientRepository.save(new Patient(null,"ahmed",new Date(),12000,false));
      patientRepository.save(new Patient(null,"hayat",new Date(),12000,false));
      patientRepository.save(new Patient(null,"ali",new Date(),12000,true));
      patientRepository.save(new Patient(null,"nawal",new Date(),12000,true));
      patientRepository.save(new Patient(null,"hamza",new Date(),12000,false));
      patientRepository.save(new Patient(null,"hamza",new Date(),12000,false));
+		patientRepository.save(new Patient(null,"ali",new Date(),12000,true));
+		patientRepository.save(new Patient(null,"nawal",new Date(),12000,true));
+		patientRepository.save(new Patient(null,"hamza",new Date(),12000,false));
+		patientRepository.save(new Patient(null,"hamza",new Date(),12000,false));
 
-/*
+
 
 		patientRepository.findAll().forEach(patient -> {
 		 System.out.println(patient.toString());
