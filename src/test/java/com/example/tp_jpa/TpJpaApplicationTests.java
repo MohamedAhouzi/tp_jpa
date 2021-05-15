@@ -1,4 +1,4 @@
-package com.ahouzi.tp_jpa;
+package com.example.tp_jpa;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

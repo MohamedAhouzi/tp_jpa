@@ -1,6 +1,6 @@
-package com.ahouzi.tp_jpa.repositories;
+package com.example.tp_jpa.repositories;
 
-import com.ahouzi.tp_jpa.entities.Patient;
+import com.example.tp_jpa.entities.Patient;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

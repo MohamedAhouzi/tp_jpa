@@ -1,7 +1,7 @@
-package com.ahouzi.tp_jpa;
+package com.example.tp_jpa;
 
-import com.ahouzi.tp_jpa.entities.Patient;
-import com.ahouzi.tp_jpa.repositories.PatientRepository;
+import com.example.tp_jpa.entities.Patient;
+import com.example.tp_jpa.repositories.PatientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -10,7 +10,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 
 import java.util.Date;
-import java.util.List;
 
 @SpringBootApplication
 
@@ -23,19 +22,22 @@ public class TpJpaApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-   /*  patientRepository.save(new Patient(null,"ahouzi",new Date(),12000,false));
+
+    patientRepository.save(new Patient(null,"ahouzi",new Date(),12000,false));
      patientRepository.save(new Patient(null,"ahmed",new Date(),12000,false));
      patientRepository.save(new Patient(null,"hayat",new Date(),12000,false));
-     patientRepository.save(new Patient(null,"ali",new Date(),12000,true));
+     patientRepository.save(new Patient(null,"aliff",new Date(),12000,true));
      patientRepository.save(new Patient(null,"nawal",new Date(),12000,true));
      patientRepository.save(new Patient(null,"hamza",new Date(),12000,false));
      patientRepository.save(new Patient(null,"hamza",new Date(),12000,false));
-		patientRepository.save(new Patient(null,"ali",new Date(),12000,true));
+		patientRepository.save(new Patient(null,"alijjjj",new Date(),12000,true));
 		patientRepository.save(new Patient(null,"nawal",new Date(),12000,true));
 		patientRepository.save(new Patient(null,"hamza",new Date(),12000,false));
 		patientRepository.save(new Patient(null,"hamza",new Date(),12000,false));
 
 
+
+/*
 
 		patientRepository.findAll().forEach(patient -> {
 		 System.out.println(patient.toString());
